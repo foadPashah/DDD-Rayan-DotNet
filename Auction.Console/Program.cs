@@ -3,7 +3,6 @@ using Application.Contracts.Auction;
 using Application.Contracts.Auction.Dto_s;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System.Net;
 
 IHost host = Host.CreateDefaultBuilder(args)
     .ConfigureServices((hostContext, services) =>

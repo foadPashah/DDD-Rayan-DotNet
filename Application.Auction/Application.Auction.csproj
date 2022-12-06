@@ -7,12 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CQRS\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Application.Contracts.Auction\Application.Contracts.Auction.csproj" />
     <ProjectReference Include="..\Auction.Domain\Auction.Domain.csproj" />
+    <ProjectReference Include="..\Framework.CQRS\Framework.CQRS.csproj" />
   </ItemGroup>
 
 </Project>
