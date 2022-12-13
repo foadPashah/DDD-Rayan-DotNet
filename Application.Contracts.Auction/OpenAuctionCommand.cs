@@ -1,6 +1,6 @@
 ﻿using Framework.CQRS;
 
-namespace Application.Auction.CQRS
+namespace Application.Contracts.Auction
 {
     public class OpenAuctionCommand : ICommand
     {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Framework.CQRS
 {
-    internal interface ICommandBus
+    public interface ICommandBus
     {
         Task Dispatch<T>(T command) where T : ICommand;
     }

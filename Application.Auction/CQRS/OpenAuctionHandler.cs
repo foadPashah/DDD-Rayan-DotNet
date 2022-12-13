@@ -1,4 +1,5 @@
-﻿using Framework.CQRS;
+﻿using Application.Contracts.Auction;
+using Framework.CQRS;
 
 namespace Application.Auction.CQRS
 {
@@ -9,6 +10,11 @@ namespace Application.Auction.CQRS
             /// 
             Console.WriteLine("Open Auction Handle executed ....");
             ///
+            ///***
+            /// do somethings
+            ///    ****
+            ///
+
             await Task.CompletedTask;
         }
     }

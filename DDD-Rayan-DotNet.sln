@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Framework", "_Framework", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.CQRS", "Framework.CQRS\Framework.CQRS.csproj", "{EA398173-C916-4EF3-ACC4-28972BF60F16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auction.Interface.Api", "Auction.Interface.Api\Auction.Interface.Api.csproj", "{BA25882D-A4A8-4010-980E-D0E1876C2062}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{EA398173-C916-4EF3-ACC4-28972BF60F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA398173-C916-4EF3-ACC4-28972BF60F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA398173-C916-4EF3-ACC4-28972BF60F16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA25882D-A4A8-4010-980E-D0E1876C2062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA25882D-A4A8-4010-980E-D0E1876C2062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA25882D-A4A8-4010-980E-D0E1876C2062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA25882D-A4A8-4010-980E-D0E1876C2062}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +65,7 @@ Global
 		{CCFE4C05-C4BE-4897-A2CB-815FF5F56C66} = {2005FF05-DDEE-4444-952D-F925DFBAC936}
 		{9AA1B9A7-7772-4398-90D0-ECFA0A02B863} = {E507E88D-D3BB-499C-A5FE-3BB30EC95C17}
 		{EA398173-C916-4EF3-ACC4-28972BF60F16} = {854BC4B1-4793-4D0D-A9B7-80EB4D8323F1}
+		{BA25882D-A4A8-4010-980E-D0E1876C2062} = {2005FF05-DDEE-4444-952D-F925DFBAC936}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {03A9DE92-4B99-4222-B818-9AE9E7A9F407}
