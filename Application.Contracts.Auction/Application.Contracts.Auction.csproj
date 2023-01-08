@@ -11,6 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Auction.Domain\Auction.Domain.csproj" />
+    <ProjectReference Include="..\Framework.CompositeSpecification\Framework.CompositeSpecification.csproj" />
     <ProjectReference Include="..\Framework.CQRS\Framework.CQRS.csproj" />
   </ItemGroup>
 

@@ -8,6 +8,10 @@ namespace Application.Auction.Services
         public async Task OpenAuction(AuctionViewModel model)
         {
             Console.WriteLine($"Open the Auction : fee is {model.Fee} and product is {model.Product}");
+
+            if (model.Fee > 100)
+                ///******
+                ///
             await Task.CompletedTask;
         }
 

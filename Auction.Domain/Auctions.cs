@@ -9,21 +9,30 @@ namespace Auction.Domain
 {
     public class Auctions
     {
+
+        public Auctions() { }
         public Auctions(int id, string product, int fee)
         {
             if (string.IsNullOrWhiteSpace(product)) throw new Exception("");
             Id = id;
-            Product = product;
-            Fee = fee;
+            //Product = product;
+            //Fee = fee;
+            IsOpen= true;
         }
 
-        public int Id { get; private set; }
+        public int Id { get; set; }
 
-        public string Product { get; private set; }
+        public string Good { get; set; }
 
-        public int Fee { get; private set; }
+        public GoodType GoodType { get; set; }
 
+        public Money Price { get; set; }
 
+        public bool IsOpen { get; set; }
+
+        public DateTime CreateTime { get; set; }
+
+        public DateTime LastBidTime { get; set; }
 
         public Auctions Update(int id, string product, int fee)
         {

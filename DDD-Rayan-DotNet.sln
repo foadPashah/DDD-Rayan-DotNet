@@ -25,11 +25,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework.CQRS", "Framework
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auction.Interface.Api", "Auction.Interface.Api\Auction.Interface.Api.csproj", "{BA25882D-A4A8-4010-980E-D0E1876C2062}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceHost", "ServiceHost\ServiceHost.csproj", "{963C80CB-85E0-42D6-96E7-FEB5E310D915}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceHost", "ServiceHost\ServiceHost.csproj", "{963C80CB-85E0-42D6-96E7-FEB5E310D915}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auction.RestApi", "Auction.RestApi\Auction.RestApi.csproj", "{A194A0F3-7A33-4298-98CC-C478C3AE06BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auction.RestApi", "Auction.RestApi\Auction.RestApi.csproj", "{A194A0F3-7A33-4298-98CC-C478C3AE06BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Config.Auction", "Config.Auction\Config.Auction.csproj", "{2E1FD906-490B-408C-85FB-2567B6084404}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Config.Auction", "Config.Auction\Config.Auction.csproj", "{2E1FD906-490B-408C-85FB-2567B6084404}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.CompositeSpecification", "Framework.CompositeSpecification\Framework.CompositeSpecification.csproj", "{41DB68AF-2C46-4E7E-B32E-4390451F8C81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,10 @@ Global
 		{2E1FD906-490B-408C-85FB-2567B6084404}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E1FD906-490B-408C-85FB-2567B6084404}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E1FD906-490B-408C-85FB-2567B6084404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41DB68AF-2C46-4E7E-B32E-4390451F8C81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41DB68AF-2C46-4E7E-B32E-4390451F8C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41DB68AF-2C46-4E7E-B32E-4390451F8C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41DB68AF-2C46-4E7E-B32E-4390451F8C81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +92,7 @@ Global
 		{BA25882D-A4A8-4010-980E-D0E1876C2062} = {2005FF05-DDEE-4444-952D-F925DFBAC936}
 		{A194A0F3-7A33-4298-98CC-C478C3AE06BD} = {2005FF05-DDEE-4444-952D-F925DFBAC936}
 		{2E1FD906-490B-408C-85FB-2567B6084404} = {4E0D680F-BC3C-451B-9A81-66EEEED951A2}
+		{41DB68AF-2C46-4E7E-B32E-4390451F8C81} = {854BC4B1-4793-4D0D-A9B7-80EB4D8323F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {03A9DE92-4B99-4222-B818-9AE9E7A9F407}

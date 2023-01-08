@@ -4,9 +4,13 @@ using Config.Auction;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
+//Autofac model
 builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
 builder.Host.ConfigureContainer<ContainerBuilder>(container => container.RegisterModule(new AuctionModule()));
+
+
+// IOC Container Microsoft
+//builder.Services.AddCustomService();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
