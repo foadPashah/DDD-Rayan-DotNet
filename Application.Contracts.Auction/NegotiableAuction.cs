@@ -14,5 +14,9 @@ namespace Application.Contracts.Auction
         {
             return value.IsOpen;
         }
+
+
+
+        
     }
 }

@@ -21,5 +21,10 @@ namespace Framework.CompositeSpecification
             return new OrSpecification<T>(this, left);
         }
 
+        public Specification<double> GreaterThan(double value)
+        {
+            return new GreaterAndEqualThanDouble(value);
+        }
+
     }
 }

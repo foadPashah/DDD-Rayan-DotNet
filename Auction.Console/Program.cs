@@ -70,7 +70,7 @@ Console.WriteLine("--------------Composite Specification----------------");
 
 var condition = new NegotiableAuction();
 var condition2 = new NegotiableAuction().And(new PaintingAuction());
-
+var condition3 = new NegotiableAuction().GreaterThan(1000);
 
 var auction = new Auctions()
 {
@@ -129,6 +129,26 @@ foreach (var item in lst)
 var lstresult = lst.Where(w => condition2.IsSatisfied(w)).ToList();
 
 lstresult.ForEach(w => Console.WriteLine($"tilte : {w.Good} price : {w.Price.Box} {w.Price.Currency}"));
+
+var lstresult2 = lst.Where(w => condition3.IsSatisfied(w.Price.Box)).ToList();
+
+lstresult2.ForEach(w => Console.WriteLine($"Greater Than 1000 for tilte : {w.Good}"));
+
+///////////////// State Pattern /////////////////
+Console.WriteLine("------------------------State Pattern------------------------");
+
+var saller = new Saller("foad", "Pashah", Sex.Male);
+
+saller.AcceptSaller();
+
+Thread.Sleep(3000);
+saller.InProgressSaller();
+Console.WriteLine($"State of Saller : {saller.Name} {saller.LastName} is {saller.State.GetType().Name}");
+
+Thread.Sleep(3000);
+
+saller.AcceptSaller();
+Console.WriteLine($"State of Saller : {saller.Name} {saller.LastName} is {saller.State.GetType().Name}");
 
 Console.ReadLine();
 
